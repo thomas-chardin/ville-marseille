@@ -21,8 +21,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -74,11 +72,15 @@ table {
 }
 
 /* Navbar et footer */
+body {
+    background-color: #F7F4F1;
+}
 header {
     background-color: rgb(255, 255, 255);
     height: 10vh;
     position: sticky;
     top: 0;
+    z-index: 100;
     display: flex;
     align-items: center;
 }
@@ -119,10 +121,10 @@ header .menu-icon p {
     gap: 10px;
     padding: 0 20px;
 }
-.logo-search .logo-title p {
+.logo-search .logo-title h1 {
     font-family: 'orkneybold', Arial, sans-serif;
     font-weight: 700;
-    font-size: 25px;
+    /* font-size: 25px; */
     color: #0047A3;
 
 }
@@ -161,24 +163,64 @@ header .menu-icon p {
     font-size: 15px;
 }
 
+footer {
+    background-color: #0047A3;
+    width: 100%;
+    height: 30vh;
 
-
-
-
-
-
-
-
-
-
-
-
-
-#BIG {
-    background-color: rgb(90, 93, 3);
-    height: 1000px;
 }
-#BIG2 {
-    background-color: rgb(21, 96, 47);
-    height: 1000px;
+
+
+/* Page acceuil */
+#hero-banner {
+    height: 75vh;
+    width: 100%;
 }
+#hero-banner img {
+    height: 100%;
+    width: 100%;
+}
+#rectangle-container {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#rectangle-container #rectangle {
+    position: relative;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    top: -75px;
+    z-index: 1;
+}
+
+#actualite {
+    display: flex;
+    width: 100%;
+    background-color: #F7F4F1;
+
+}
+#actualite h2 {
+    position: relative;
+    color: #0047A3;
+    font-weight: bold;
+    font-size: 35px;
+    left: 10%;
+}
+
+#actualite #actualites-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+#actualite #actualites-container #actualite-principale {
+    background-color: #ffffff;
+    width: 100%;
+    height: 50vh;
+}
+
+
+
