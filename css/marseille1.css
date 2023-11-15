@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#titre{
+    font-size: xx-large;
+    padding: 1%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#text{
+    color: rgb(0, 174, 174);
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-right: 25%;
+    padding-bottom: 2%;
+    padding-left: 25%;
+    text-transform: capitalize;
+ }
+
+ #backgroundblue {
+    background-color: rgba(85, 209, 205, 0.738);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+article {
+    flex: 2;
+    margin-right: 20px; 
+}
+
+aside {
+    flex: 1;
+}
+
+.image-with-text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: rgba(185, 187, 187, 0.738);
+}
+
+article {
+    position: relative;
+    overflow: hidden;
+}
+
+article img {
+    width: 50%;
+    display: block;
+}
+
+#position{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 100px;
+    background: white; 
+    padding: 20px; 
+    max-width: 50%;
+    transition: 0.5s;
+}
+
+.image-with-text:hover #position{
+    right: 20px;
+}
+
+section {
+    width: 100%; 
+    overflow: hidden; 
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 10%; 
+    display: block; 
+}
+
+section img {
+    display: block; 
+}
+
+.texte-sur-image {
+    position: absolute;
+    top: 7%;
+    left: 5%;
+    padding: 30px; 
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 5px double white; 
+    text-transform: uppercase;
+}
+
+#textblue {
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    justify-content: center;
+}
