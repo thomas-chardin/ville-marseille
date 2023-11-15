@@ -350,11 +350,12 @@ footer {
 
 /* Actualité grid */
 #actualite #actualites-container #actualites-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   height: 850px;
   width: 80%;
+  gap: 70px;
   background-color: red;
 }
 #actualite #actualites-container #actualites-grid .grid-element {
@@ -362,7 +363,7 @@ footer {
   flex-direction: column;
   background-color: #fff;
   height: 400px;
-  width: 95%;
+  width: 250px;
   /* gap: 5%; */
 }
 
