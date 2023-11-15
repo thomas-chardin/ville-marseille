@@ -18,11 +18,13 @@ aside {
 }
 
 #backgroundyellow {
-    background-color: rgba(250, 242, 4, 0.811);
+    background-color: #FFE51E;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    text-align: center;
+    padding: 1%;
 }
 
 #backgroundorangered {
@@ -57,9 +59,13 @@ aside {
 
 #titre{
     font-size: xx-large;
-    padding: 1%;
+    padding: 3%;
     text-align: left;
     text-transform: uppercase;
+    padding-top: 3%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+    padding-left: 20%;
 }
 
 video {
@@ -68,3 +74,17 @@ video {
     max-width: none;
 }
 
+#text {
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    padding-left: 20%;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.img {
+    text-align: center;
+    height: 150px;
+    width: 100%;
+}
