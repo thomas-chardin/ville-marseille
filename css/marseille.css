@@ -371,7 +371,12 @@ footer {
   width: 275px;
   /* gap: 5%; */
 }
-
+#actualite #actualites-container #actualites-grid .grid-element:hover {
+  box-shadow: 0 2px 5px rgba(178, 175, 175, 0.499);
+}
+#actualite #actualites-container #actualites-grid .grid-element:hover img{
+scale: (1.1);
+}
 #actualite
   #actualites-container
   #actualites-grid

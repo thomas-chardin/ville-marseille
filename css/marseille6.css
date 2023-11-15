@@ -1,0 +1,70 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+}
+h2 {
+    color: #0047a3;
+    font-size: 35px;
+    margin: 35px 0;
+}
+
+#form-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #fff;
+gap: 30px;
+}
+#form-container p {
+    margin: 40px 100px;
+    font-size: 20px;
+
+}
+form {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: baseline;
+}
+form label span {
+    color: red;
+}
+form label {
+    font-weight: bold;
+}
+form input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(220, 220, 220);
+  margin-bottom: 20px;
+}
+
+select {
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(220, 220, 220);
+
+  margin-bottom: 20px;
+}
+
+
+
+
+#test {
+    height: 500vh;
+    width: 100%;
+    background-color: red;
+}
