@@ -127,6 +127,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html {
+  overflow-x: hidden;
+}
 
 /* Polices d'écriture */
 @font-face {
@@ -353,17 +356,18 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 850px;
+  height: auto;
   width: 80%;
-  gap: 70px;
-  background-color: red;
+  row-gap: 20px;
+  /* background-color: red; */
+  /* overflow: auto; */
 }
 #actualite #actualites-container #actualites-grid .grid-element {
   display: flex;
   flex-direction: column;
   background-color: #fff;
   height: 400px;
-  width: 250px;
+  width: 275px;
   /* gap: 5%; */
 }
 
