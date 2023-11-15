@@ -62,14 +62,19 @@ article img {
     display: block;
 }
 
-#possition{
+#position{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 20px;
+    right: 50px;
     background: white; 
     padding: 20px; 
-    max-width: 50%; 
+    max-width: 50%;
+    transition: 0.5s;
+}
+
+.image-with-text:hover #position{
+    right: 20px;
 }
 
 section {
