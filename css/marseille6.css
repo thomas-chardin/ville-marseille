@@ -35,8 +35,10 @@ form {
     flex-direction: column;
     align-items: baseline;
 }
-form label span {
+
+#red {
     color: red;
+
 }
 form label {
     font-weight: bold;
@@ -49,7 +51,10 @@ form input[type=text] {
   border: 2px solid rgb(220, 220, 220);
   margin-bottom: 20px;
 }
+form input[type=text]:hover {
+  box-shadow: rgba(138, 137, 137, 0.2) 0px 2px 8px 0px;
 
+}
 select {
     width: 100%;
   padding: 12px 20px;
@@ -59,12 +64,40 @@ select {
 
   margin-bottom: 20px;
 }
-
-
-
-
-#test {
-    height: 500vh;
-    width: 100%;
-    background-color: red;
+select:hover {
+    box-shadow: rgba(138, 137, 137, 0.2) 0px 2px 8px 0px;
 }
+textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 20vh;
+    max-height: 150vh;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(220, 220, 220);
+  text-align: start;
+
+  margin-bottom: 20px;
+}
+textarea:hover {
+  box-shadow: rgba(138, 137, 137, 0.2) 0px 2px 8px 0px;
+}
+#submit {
+    background-color: #287DE9;
+    color: #fff;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 5px;
+    border: 1px solid #287DE9;
+    font-size: 15px;
+    font-weight: 700;
+}
+#submit:hover {
+    background-color: #fff;
+    color: #287DE9;
+}
+
+
+
+

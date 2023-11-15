@@ -36,7 +36,7 @@
             Ce formulaire est destiné à nous contacter à propos de ce site. 
             Ces données, ainsi que votre nom, sont indispensables au
             traitement de votre demande. Les champs obligatoires sont marqués
-            d'un astérisque rouge (*)
+            d'un astérisque rouge (<span id="red">*</span>)
           </p>
           <form>
             <label for="fname">Civilité</label>
@@ -45,30 +45,32 @@
                 <option value="Mme">Madame</option>
                 <option value="M.">Monsieur</option>
             </select>
-            <label for="lname">Nom <span>*</span></label>
+            <label for="lname">Nom <span id="red">*</span></label>
             <input type="text" id="lname" name="lname" />
             
-            <label for="fname">Prénom <span>*</span></label>
+            <label for="fname">Prénom <span id="red">*</span></label>
             <input type="text" id="fname" name="fname" />
             
-            <label for="email">Votre adresse (e-mail) <span>*</span></label>
+            <label for="email">Votre adresse (e-mail) <span id="red">*</span></label>
             <input type="text" id="email" name="email" />
             
             <label for="tel">Téléphone</label>
             <input type="text" id="tel" name="tel" />
             
-            <label for="cp">Code postal <span>*</span></label>
+            <label for="cp">Code postal <span id="red">*</span></label>
             <input type="text" id="cp" name="cp" />
 
             <label for="msg">Message</label>
+            <textarea id="msg" name="msg">
+            Votre message...
+            </textarea>
+            <input id="submit" type="submit" value="Envoyer" />
 
             
           </form>
         </div>
       </section>
     </main>
-
-    <div id="test"></div>
     <footer></footer>
   </body>
 </html>
