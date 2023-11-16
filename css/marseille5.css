@@ -42,7 +42,7 @@ aside {
     padding-top: 8%;
     padding-right: 2%;
     padding-bottom: 8%;
-    padding-left: 2%;
+    padding-left: 20%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
@@ -53,7 +53,7 @@ aside {
     padding-top: 8%;
     padding-right: 2%;
     padding-bottom: 8%;
-    padding-left: 2%;
+    padding-left: 20%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
@@ -64,7 +64,7 @@ aside {
     padding-top: 8%;
     padding-right: 2%;
     padding-bottom: 8%;
-    padding-left: 2%;
+    padding-left: 20%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
@@ -75,7 +75,7 @@ aside {
     padding-top: 8%;
     padding-right: 2%;
     padding-bottom: 8%;
-    padding-left: 2%;
+    padding-left: 20%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 
 }
@@ -87,7 +87,7 @@ aside {
     padding-top: 8%;
     padding-right: 2%;
     padding-bottom: 8%;
-    padding-left: 2%;
+    padding-left: 20%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
@@ -142,4 +142,5 @@ article iframe {
 
 #colonne {
     flex-direction: column;
+    text-transform: uppercase;
 }
