@@ -14,7 +14,7 @@
 
 article section {
     flex: 2;
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 aside {
@@ -64,7 +64,8 @@ aside {
     padding-top: 8%;
     padding-right: 2%;
     padding-bottom: 8%;
-    padding-left: 2%;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding-left: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 #backgroundbrown {
@@ -75,7 +76,8 @@ aside {
     padding-right: 2%;
     padding-bottom: 8%;
     padding-left: 2%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
 }
 
 #backgroundorange {
@@ -89,7 +91,7 @@ aside {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
-#titre{
+#titre {
     font-size: xx-large;
     padding: 3%;
     text-align: left;
