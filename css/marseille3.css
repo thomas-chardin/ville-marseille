@@ -4,6 +4,7 @@
 }
 #titre2 {
     text-align: center;
+    color: #0047a3;
 }
 #titre5 {
     text-align: right;
@@ -13,12 +14,12 @@
 }
 #list3 li::before{ 
     padding-right: 1%;
-    color: cyan;
+    color: #0047a3;
     content: "\00BB"; 
 }
 ul ::before {
     padding-right: 1%;
-    color: cyan;
+    color: #0047a3;
     content: "\00BB"; 
 }
 ul {
@@ -75,6 +76,13 @@ h1 {
     padding-left: 5%;
     padding-top: 5%;
     font-size: 300%;
+    color: #0047a3;
+}
+h2 {
+    color: #0047a3;
+}
+h3 {
+    color: #0047a3;
 }
 .texte {
 padding: 1% 5% 1% 5%;
