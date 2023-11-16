@@ -8,7 +8,11 @@
     background: transparent;
 }
 
-article {
+#test {
+    display: flex;
+}
+
+article section {
     flex: 2;
     margin-right: 20px; 
 }
@@ -35,32 +39,54 @@ aside {
     background-color: orangered;
     display: flex;
     flex-direction: row;
-    width: auto;
-    height: auto;
+    padding-top: 8%;
+    padding-right: 2%;
+    padding-bottom: 8%;
+    padding-left: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 #backgroundgreen {
     background-color: green;
     display: flex;
     flex-direction: row;
+    padding-top: 8%;
+    padding-right: 2%;
+    padding-bottom: 8%;
+    padding-left: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 #backgroundpink {
     background-color: pink;
     display: flex;
     flex-direction: row;
+    padding-top: 8%;
+    padding-right: 2%;
+    padding-bottom: 8%;
+    padding-left: 2%;box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 #backgroundbrown {
     background-color: rgb(189, 96, 56);
     display: flex;
     flex-direction: row;
+    padding-top: 8%;
+    padding-right: 2%;
+    padding-bottom: 8%;
+    padding-left: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 #backgroundorange {
     background-color: rgb(218, 110, 1);
     display: flex;
     flex-direction: row;
+    padding-top: 8%;
+    padding-right: 2%;
+    padding-bottom: 8%;
+    padding-left: 2%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 #titre{
@@ -88,7 +114,7 @@ video {
     padding-top: 1%;
     padding-right: 2%;
     padding-bottom: 1%;
-    padding-left: 20%;
+    padding-left: 5%;
     justify-content: center;
     text-transform: uppercase;
 }
@@ -110,4 +136,8 @@ article img {
 article iframe {
     margin-bottom: 10%;
     text-align: center;
+}
+
+#colonne {
+    flex-direction: column;
 }
