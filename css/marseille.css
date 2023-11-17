@@ -326,7 +326,7 @@ header .menu-icon p {
 
 #burguer-background {
   background-color: #0047a3;
-  width: 5%;
+  width: 80px;
   height: 100%;
 }
 
@@ -493,18 +493,4 @@ footer {
   height: 90vh;
   background-size: cover;
   background-attachment: fixed;
-}
-
-/* Aside test */
-aside {
-  background-color: #287DE9;
-  position: relative;
-  height: 350px;
-  width: 500px;
-  top: -370px;
-  left: 50%;
-}
-aside #title-paragraph {
-  position: relative;
-  color: #fff;
 }

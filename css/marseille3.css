@@ -17,18 +17,18 @@
     color: #0047a3;
     content: "\00BB"; 
 }
-ul ::before {
+.paragraphe  ::before {
     padding-right: 1%;
     color: #0047a3;
     content: "\00BB"; 
 }
-ul {
+.paragraphe {
     padding-left: 2rem;
     list-style-type: none;
     margin-bottom: 5%;
     margin-top: 3%;
 }
-ul li {
+.paragraphe li {
     padding-left: 2rem;
     background-position: 0 0;
     background-size: 1.6rem 1.6rem;
