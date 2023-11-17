@@ -1,15 +1,15 @@
-ul ::before {
+.class-ul ::before {
     padding-right: 1%;
     color: #0047a3;
     content: "\00BB"; 
 }
-ul {
+.class-ul {
     padding-left: 2rem;
     list-style-type: none;
     margin-bottom: 5%;
     margin-top: 3%;
 }
-ul li {
+.class-ul li {
     padding-left: 2rem;
     background-position: 0 0;
     background-size: 1.6rem 1.6rem;
