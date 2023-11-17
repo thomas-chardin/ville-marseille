@@ -42,3 +42,7 @@ main {
 .paragraphe {
     padding: 1% 15% 1% 15%;
 }
+.text {
+    padding: 1% 5% 1% 5%;
+    text-align: center;
+}
