@@ -494,3 +494,17 @@ footer {
   background-size: cover;
   background-attachment: fixed;
 }
+
+#last {
+ 
+  background-color: #287DE9;
+  position: relative;
+  height: 350px;
+  width: 500px;
+  top: -370px;
+  left: 50%;
+}
+#last #title-paragraph {
+  position: relative;
+  color: #fff;
+}
