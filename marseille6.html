@@ -16,7 +16,7 @@
     <title>Contact</title>
   </head>
   <body>
-   <header>
+    <header>
       <div id="burguer-background">
         <div class="hamburger-menu">
           <input id="menu__toggle" type="checkbox" />
@@ -30,14 +30,15 @@
             <li class="deroulant">
               <a class="menu__item" href="#">Explorer 🔽</a>
               <ul class="submenu">
-                <li><a class="menu__item" href="marseille2.html">Randonéés</a></li>
+                <li>
+                  <a class="menu__item" href="marseille2.html">Randonéés</a>
+                </li>
                 <li><a class="menu__item" href="marseille3.html">Plages</a></li>
                 <li><a class="menu__item" href="marseille4.html">Parcs</a></li>
               </ul>
             </li>
             <li><a class="menu__item" href="marseille5.html">Musées</a></li>
             <li><a class="menu__item" href="marseille6.html">Contact</a></li>
-            
           </ul>
         </div>
       </div>
@@ -65,30 +66,32 @@
         <h2>Contacter le webmestre</h2>
         <div id="form-container">
           <p>
-            Ce formulaire est destiné à nous contacter à propos de ce site. 
-            Ces données, ainsi que votre nom, sont indispensables au
-            traitement de votre demande. Les champs obligatoires sont marqués
-            d'un astérisque rouge (<span id="red">*</span>)
+            Ce formulaire est destiné à nous contacter à propos de ce site. Ces
+            données, ainsi que votre nom, sont indispensables au traitement de
+            votre demande. Les champs obligatoires sont marqués d'un astérisque
+            rouge (<span id="red">*</span>)
           </p>
           <form>
             <label for="fname">Civilité</label>
             <select id="civilite" name="- Selectionner -">
-                <option value="X">- Selectionner -</option>
-                <option value="Mme">Madame</option>
-                <option value="M.">Monsieur</option>
+              <option value="X">- Selectionner -</option>
+              <option value="Mme">Madame</option>
+              <option value="M.">Monsieur</option>
             </select>
             <label for="lname">Nom <span id="red">*</span></label>
             <input type="text" id="lname" name="lname" />
-            
+
             <label for="fname">Prénom <span id="red">*</span></label>
             <input type="text" id="fname" name="fname" />
-            
-            <label for="email">Votre adresse (e-mail) <span id="red">*</span></label>
+
+            <label for="email"
+              >Votre adresse (e-mail) <span id="red">*</span></label
+            >
             <input type="text" id="email" name="email" />
-            
+
             <label for="tel">Téléphone</label>
             <input type="text" id="tel" name="tel" />
-            
+
             <label for="cp">Code postal <span id="red">*</span></label>
             <input type="text" id="cp" name="cp" />
 
@@ -97,25 +100,22 @@
             Votre message...
             </textarea>
             <input id="submit" type="submit" value="Envoyer" />
-
-            
           </form>
         </div>
       </section>
     </main>
     <footer>
       <div id="nom-projet">
-        <img src="assets/images/Blason-Marseille.png">
+        <img src="assets/images/Blason-Marseille.png" />
         <small>Thomas Cerruti - Thomas Chardin - Oroitz Lago Ramos</small>
       </div>
-      
+
       <div id="reseaux">
         <i class="fa-brands fa-github"></i>
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-instagram"></i>
       </div>
-
     </footer>
   </body>
 </html>

@@ -1,96 +1,96 @@
 #titre1 {
-    text-align: center;
-    text-transform: capitalize;
+  text-align: center;
+  text-transform: capitalize;
 }
 #titre2 {
-    text-align: center;
-    color: #0047a3;
+  text-align: center;
+  color: #0047a3;
 }
 #titre5 {
-    text-align: right;
+  text-align: right;
 }
-#list3 li{
-    text-align: right;
+#list3 li {
+  text-align: right;
 }
-#list3 li::before{ 
-    padding-right: 1%;
-    color: #0047a3;
-    content: "\00BB"; 
+#list3 li::before {
+  padding-right: 1%;
+  color: #0047a3;
+  content: "\00BB";
 }
-.paragraphe  ::before {
-    padding-right: 1%;
-    color: #0047a3;
-    content: "\00BB"; 
+.paragraphe ::before {
+  padding-right: 1%;
+  color: #0047a3;
+  content: "\00BB";
 }
 .paragraphe {
-    padding-left: 2rem;
-    list-style-type: none;
-    margin-bottom: 5%;
-    margin-top: 3%;
+  padding-left: 2rem;
+  list-style-type: none;
+  margin-bottom: 5%;
+  margin-top: 3%;
 }
 .paragraphe li {
-    padding-left: 2rem;
-    background-position: 0 0;
-    background-size: 1.6rem 1.6rem;
-    background-repeat: no-repeat;
+  padding-left: 2rem;
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
 }
 #list3 {
-    padding-right: 1%;
+  padding-right: 1%;
 }
 h2 {
-    text-align: center;
+  text-align: center;
 }
 .box {
-    display: flex;
+  display: flex;
 }
 .plagenonsur {
-    display: right;
-    padding-left: 30%;
+  display: right;
+  padding-left: 30%;
 }
 body {
-    background-image: url(/assets/images/plage-pointe-rouge-tourisme.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
-    background-color: whitesmoke;
+  background-image: url(/assets/images/plage-pointe-rouge-tourisme.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  background-color: whitesmoke;
 }
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    /* font-family: sans-serif; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: sans-serif; */
 }
 header {
-    margin-bottom: 30%;
+  margin-bottom: 30%;
 }
 main {
-    margin: 20% 10% 2% 10%;
-    border-style: 2px;
-    background-color: white;
+  margin: 20% 10% 2% 10%;
+  border-style: 2px;
+  background-color: white;
 }
 .paragraphe {
-    padding: 1% 15% 1% 15%;
+  padding: 1% 15% 1% 15%;
 }
 h1 {
-    text-align: left;
-    padding-left: 5%;
-    padding-top: 5%;
-    font-size: 300%;
-    color: #0047a3;
+  text-align: left;
+  padding-left: 5%;
+  padding-top: 5%;
+  font-size: 300%;
+  color: #0047a3;
 }
 h2 {
-    color: #0047a3;
+  color: #0047a3;
 }
 h3 {
-    color: #0047a3;
+  color: #0047a3;
 }
 .texte {
-padding: 1% 5% 1% 5%;
+  padding: 1% 5% 1% 5%;
 }
 #titre2 {
-    font-size: 200%;
-    margin-bottom: 5%;
+  font-size: 200%;
+  margin-bottom: 5%;
 }
 #titre3 {
-    margin-bottom: 5%;
+  margin-bottom: 5%;
 }
