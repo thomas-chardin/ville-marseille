@@ -331,6 +331,21 @@ header .menu-icon p {
 }
 
 
+.submenu {
+  display: none;
+  padding-left: 20px;
+}
+
+/* Afficher le sous-menu au survol */
+.menu__box .deroulant:hover .submenu {
+  display: block;
+}
+
+/* Style des éléments du sous-menu */
+.submenu li {
+  margin-top: 5px;
+}
+
 
 
 footer {
