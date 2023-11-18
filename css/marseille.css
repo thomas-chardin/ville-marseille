@@ -406,9 +406,9 @@ footer {
   justify-content: space-evenly;
 }
 #rectangle-container #rectangle h2 {
-  margin: 15px;
+  /* margin: 15px; */
   color: #0047a3;
-  font-size: 35px;
+  font-size: 60px;
 }
 #rectangle-container #rectangle #services {
   display: flex;
