@@ -382,7 +382,49 @@ footer {
   background-color: rgb(255, 255, 255);
   top: -75px;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
+#rectangle-container #rectangle h2 {
+  margin: 15px;
+  color: #0047a3;
+  font-size: 35px;
+}
+#rectangle-container #rectangle #services {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+#rectangle-container #rectangle #services a {
+text-decoration: none;
+
+}
+#rectangle-container #rectangle #services #service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 10px;
+  cursor: pointer;
+
+}
+#rectangle-container #rectangle #services #service:hover i {
+background-color: #CFD8DC;
+color: #0047a3;
+}
+
+#rectangle-container #rectangle #services #service i {
+  padding: 20px;
+  border-radius: 100%;
+  background-color: #0047a3;
+  margin: 10px;
+  color: #fff;
+}
+#rectangle-container #rectangle #services #service h4 {
+  color: black;
+}
+
 /* Section actualités entière */
 #actualite {
   display: flex;
