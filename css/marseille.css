@@ -363,6 +363,7 @@ footer {
 }
 #nom-projet small {
   font-size: 18px;
+  color: #fff;
 }
 #reseaux {
   display: flex;
@@ -370,8 +371,13 @@ footer {
   align-items: center;
   gap: 20px;
 }
+#reseaux a {
+  text-decoration: none;
+  color: #fff;
+}
 #reseaux i {
   font-size: 30px;
+  color: #fff;
 }
 
 /* Page acceuil */
@@ -574,14 +580,30 @@ footer {
 }
 
 #last {
-  background-color: #287de9;
+  background-color: #2671d2;
   position: relative;
   height: 350px;
   width: 500px;
   top: -370px;
   left: 50%;
+  overflow: hidden;
 }
 #last #title-paragraph {
   position: relative;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  
+}
+#last #title-paragraph h3 {
+  font-size: 3rem;
+  padding: 30px 50px;
+  text-align: start;
+  font-weight: 800;
+
+}
+#last #title-paragraph p {
+  padding: 0 50px;
 }
