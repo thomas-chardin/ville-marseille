@@ -37,9 +37,15 @@ main p{
 .rando {
     width: 85%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .rando-texte {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
 }
 .rando_img {
     flex: 2;
